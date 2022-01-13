@@ -15,7 +15,7 @@ export default function Movie({ movie }) {
       ></img>
       <div className="card-body">
         <h4>{movie.title}</h4>
-        <button className={`btn ${isFavorite}?'btn-success':"btn btn-outline-primary"`}>
+        <button className={`btn ${isFavorite ? 'btn-success':'btn btn-outline-primary'}`}>
             Favorito
         </button>
       </div>
